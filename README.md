@@ -20,6 +20,7 @@ To train a new model: <br />
 ## Prediction analyses
 To visualize the model: <br />
 ```python3 visualize_model.py``` <br />
+<br />
 To analyse prediction performance: <br />
 ```python3 results_analysis.py``` <br />
 
