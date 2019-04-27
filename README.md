@@ -19,9 +19,9 @@ To train a new model: <br />
 
 ## Prediction analyses
 To visualize the model: <br />
-```python3 visualize_model.py```
+```python3 visualize_model.py``` <br />
 To analyse prediction performance: <br />
-```python3 results_analysis.py```
+```python3 results_analysis.py``` <br />
 
 ## Citation
 If you use this code for your research, please cite our paper **CME Arrival Time Prediction Using Convolutional Neural Network**: <br />
