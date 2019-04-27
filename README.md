@@ -10,12 +10,18 @@ Yimin Wang, Jiajia Liu, Ye Jiang, Robert Erdélyi <br />
 The architecture of the proposed CNN regression model is: <br />
 ![](https://github.com/yiminking/CME-CNN/blob/master/imgs/cnn_model.png)
 
-## Dataset
+## Datasets
 A catalogue of all observed geo-effective CMEs since the beginning of the SOHO era, i.e. from 1996 to early 2018 was established by combining the following four CME databases: the Richardson and Cane list (http://www.srl.caltech.edu/ACE/ASC/DATA/level3/icmetable2.htm), the full halo CME list provided by the University of Science and Technology of China (http://space.ustc.edu.cn/dreams/fhcmes/index.php), the George Mason University CME/ICME list (http://solar.gmu.edu/heliophysics/index.php/GMU_CME/ICME_List), and the CME Scoreboard by NASA (https://kauai.ccmc.gsfc.nasa.gov/CMEscoreboard/). After removing duplicates, 276 geo-effective events were obtained. 
 
 ## Training
-Train a new model: <br />
+To train a new model: <br />
 ```python3 train.py```
+
+## Prediction analyses
+To visualize the model: <br />
+```python3 visualize_model.py```
+To analyse prediction performance: <br />
+```python3 results_analysis.py```
 
 ## Citation
 If you use this code for your research, please cite our paper **CME Arrival Time Prediction Using Convolutional Neural Network**: <br />
