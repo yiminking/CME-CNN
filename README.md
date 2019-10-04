@@ -2,7 +2,7 @@
 This is an implementation of the CNN regression model for Coronal Mass Ejections (CMEs) arrival time prediction using Python 3, Keras and TensorFlow. The model is trained to learn the mapping between features of CMEs white-light observations (from SOHO LASCO C2) and its corresponding transit time from the Sun to the Earth. For example, the features extracted by the first convolutional layer for a CME is shown below: <br />
 ![](https://github.com/yiminking/CME-CNN/blob/master/imgs/first_max_pooling_output.png)
 
-**CME Arrival Time Prediction Using Convolutional Neural Network** <br /> 
+**[CME Arrival Time Prediction Using Convolutional Neural Network](https://iopscience.iop.org/article/10.3847/1538-4357/ab2b3e/meta)** <br /> 
 Yimin Wang, Jiajia Liu, Ye Jiang, Robert Erdélyi <br /> 
 *The Astrophysical Journal*, 2019
 
